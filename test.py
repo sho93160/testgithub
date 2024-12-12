@@ -5,4 +5,6 @@ df = pd.DataFrame({
     'age': [28, 22, 26]
 })
 
+pd.to_csv(df)
+
 print(df)
